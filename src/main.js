@@ -3,6 +3,7 @@ import "./components/hero-section.js";
 import "./components/social-proof.js";
 import "./components/about-us.js";
 import "./components/gallery-one.js";
+import "./components/gallery-two.js";
 import "./components/how-it-works.js";
 import "./components/contact-us-one.js";
 import "./components/footer-page-one.js";

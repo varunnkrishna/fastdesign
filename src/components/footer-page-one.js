@@ -17,7 +17,7 @@ class FooterSection extends LitElement {
                   <img
                     class="w-auto h-7"
                     src="/images/fastdesignslogo.webp"
-                    alt="FastDesignslogo"
+                    alt="FastDesignlogo"
                   />
                 </a>
 

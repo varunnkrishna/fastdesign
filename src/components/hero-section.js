@@ -46,21 +46,27 @@ class HeroSection extends LitElement {
                 <h1
                   class="font-inter tracking-tighter text-4xl font-bold text-[#433232] md:text-4xl xl:text-5xl"
                 >
-                  Professional Photo Editing for Stunning Prints
+                  Hi👋 , I’m Pardhu – CEO of FastDesign
                 </h1>
                 <p
                   class="mt-8 text-lg font-inter font-medium tracking-tight text-[#464442]"
                 >
-                  We work with photographers to enhance and transform their
-                  photos into beautifully edited, print-ready photos. Whether
-                  it’s wedding photography, pre-marriage shoots, or any special
-                  event.
+                  A Graphic Designer with 10+ Years of Expertise.
                 </p>
                 <p
                   class="hidden md:block mt-4 text-lg font-inter font-medium tracking-tight text-[#464442]"
                 >
-                  FastDesigns is your trusted partner for high-quality, flawless
-                  photo edits
+                  Passionate about creating beautiful designs, I founded
+                  FastDesign to help photographers and businesses bring their
+                  ideas to life. With a dedicated team and a focus on on-time
+                  delivery, data security, and creativity, we deliver
+                  high-quality albums and digital designs that exceed
+                  expectations.
+                </p>
+                <p
+                  class="mt-8 text-lg font-inter font-medium tracking-tight text-[#464442]"
+                >
+                  Let’s work together and make something amazing! 🚀
                 </p>
               </div>
 
@@ -126,13 +132,13 @@ class HeroSection extends LitElement {
                 aria-label="Book appointment"
                 class="bg-[#0a8b7d] text-white py-3 px-6 w-48 text-center hover:bg-[#404F58] transition whitespace-normal transition:background-color 0.3s ease"
               >
-                View Gallary
+                View Gallery
               </a>
               <a
                 href="#book-appointment"
                 class="bg-black text-white py-3 px-6 w-60 text-center hover:bg-[#9e5248] transition whitespace-normal transition:background-color 0.3s ease"
               >
-                Call: 123456789
+                Call: +91 8977569985
               </a>
             </div>
           </div>

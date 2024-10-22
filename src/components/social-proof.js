@@ -25,34 +25,34 @@ class SocialProof extends LitElement {
         >
           <!-- Add 6 logos here -->
           <img
-            src="/images/1.webp"
+            src="/images/annams.jpg"
             alt="plick designs client 1"
-            class="object-contain h-[60px] w-auto mx-auto"
+            class="object-contain h-[60px] w-auto mx-auto rounded-lg"
           />
           <img
-            src="/images/2.webp"
+            src="/images/CHIRU IMAGES RAJAM.jpg"
             alt="plick designs client 2"
-            class="object-contain h-[60px] w-auto mx-auto"
+            class="object-contain h-[60px] w-auto mx-auto rounded-lg"
           />
           <img
-            src="/images/3.webp"
+            src="/images/DILLE DIGITAL NJD.jpg"
             alt="plick designs client 3"
-            class="object-contain h-[60px] w-auto mx-auto"
+            class="object-contain h-[60px] w-auto mx-auto rounded-lg"
           />
           <img
-            src="/images/4.webp"
+            src="/images/GANDHI DIGI SKLM.jpg"
             alt="plick designs client 4"
-            class="object-contain h-[60px] w-auto mx-auto"
+            class="object-contain h-[60px] w-auto mx-auto rounded-lg"
           />
           <img
-            src="/images/5.webp"
+            src="/images/KALYANI DIGITAL SKLM.jpg"
             alt="plick designs client 5"
-            class="object-contain h-[60px] w-auto mx-auto"
+            class="object-contain h-[60px] w-auto mx-auto rounded-lg"
           />
           <img
-            src="/images/6.webp"
+            src="/images/S PHOTOGRAPHY RAJAM.jpg"
             alt="plick designs client 6"
-            class="object-contain h-[60px] w-auto mx-auto"
+            class="object-contain h-[60px] w-auto mx-auto rounded-lg"
           />
         </div>
       </section>
