@@ -19,61 +19,55 @@ class AboutSection extends LitElement {
             <div class="w-full">
               <!-- Badge / Tagline -->
               <span
-                class="inline-block py-1 px-3 rounded-full bg-[#0a8b7d] text-white text-sm font-semibold mb-4"
+                class="inline-block py-1 px-3 rounded-md bg-[#0a8b7d] text-white text-sm font-semibold mb-4"
               >
-                Our Expertise
+                About Us
               </span>
 
               <!-- Section Title -->
               <h2 class="text-4xl font-bold text-gray-900 mb-6 leading-snug">
-                Welcome to <span class="text-[#0a8b7d]">FastDesigns</span>
+                Hi, <span class="text-[#0a8b7d]">I’m Pardhu</span> – CEO of
+                FastDesign
               </h2>
+
+              <span
+                class="inline-block py-1 px-3 rounded-md bg-green-800/10 text-black text-sm font-semibold mb-4"
+              >
+                A Graphic Designer with 10+ Years of Expertise
+              </span>
+
+              <h2 class = "block text-sm  p-2 text-left rounded-sm font-semibold"><h2> 
 
               <!-- Engaging Text -->
               <p class="text-lg text-gray-600 mb-6">
-                At FastDesigns, we are passionate about turning life’s precious
-                moments into timeless memories. Whether you need stunning
-                wedding albums, flawless event photos, or family portraits, we
-                bring your vision to life through professional editing and
-                exceptional service.
+                Passionate about creating beautiful designs, I founded FastDesign to help photographers and businesses bring their ideas to life. With a dedicated team and a focus on on-time delivery, data security, and creativity, we deliver high-quality albums and digital designs that exceed expectations.
               </p>
 
               <!-- Highlighted Services List -->
               <ul class="space-y-4 mb-8">
                 <li class="flex items-start">
-                  <span
-                    class="inline-block w-4 h-4 bg-[#0a8b7d] text-white text-center rounded-full mr-3 font-bold"
-                    >•</span
-                  >
+                  
                   <p class="text-lg text-gray-800">
-                    Exclusive Wedding Photography
+                   ✓ On-time Delivery 📅
                   </p>
                 </li>
                 <li class="flex items-start">
-                  <span
-                    class="inline-block w-4 h-4 bg-[#0a8b7d] text-white text-center rounded-full mr-3 font-bold"
-                    >•</span
-                  >
+                  
+                  
                   <p class="text-lg text-gray-800">
-                    Creative Pre-Wedding Shoots
+                   ✓ Competitive Pricing 💰
                   </p>
                 </li>
                 <li class="flex items-start">
-                  <span
-                    class="inline-block w-4 h-4 bg-[#0a8b7d] text-white text-center rounded-full mr-3 font-bold"
-                    >•</span
-                  >
+                  
                   <p class="text-lg text-gray-800">
-                    Professional Event Photography
+                   ✓ Global Availability 🌎
                   </p>
                 </li>
                 <li class="flex items-start">
-                  <span
-                    class="inline-block w-4 h-4 bg-[#0a8b7d] text-white text-center rounded-full mr-3 font-bold"
-                    >•</span
-                  >
+                  
                   <p class="text-lg text-gray-800">
-                    Beautiful Family Portraits
+                   ✓ Beautiful Family Portraits
                   </p>
                 </li>
               </ul>
@@ -81,23 +75,18 @@ class AboutSection extends LitElement {
               <!-- CTA Button -->
               <div class="flex justify-start mb-8">
                 <a
-                  href="/contact"
-                  class="bg-[#0a8b7d] text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-[#087961] transition duration-300"
+                  href="https://wa.me/918977569985" target = "_blank"
+                  class="bg-[#0a8b7d] text-white font-semibold py-3 px-6  shadow-lg hover:bg-[#087961] transition duration-300"
                 >
-                  Contact Us Today
+                  Quick Whatsapp Enquiry
                 </a>
               </div>
 
               <!-- Testimonial Section -->
               <div class="flex items-center">
-                <img
-                  src="https://tuk-cdn.s3.amazonaws.com/assets/components/testimonials/t_1.png"
-                  alt="CEO of FastDesign"
-                  class="w-12 h-12 rounded-full object-cover mr-4"
-                />
+              
                 <div>
-                  <p class="font-bold text-gray-800">Venkatech</p>
-                  <p class="text-gray-500 text-sm">CEO of FastDesign</p>
+
                 </div>
               </div>
             </div>
@@ -106,9 +95,9 @@ class AboutSection extends LitElement {
           <!-- Right Column: Image -->
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              class="object-cover object-center rounded"
+              class="object-cover object-center rounded-lg shadow-xl"
               alt="FastDesign services"
-              src="/images/heroimage.webp"
+              src="/images/fastdesignCEO.webp"
             />
           </div>
         </div>

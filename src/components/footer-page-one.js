@@ -12,18 +12,23 @@ class FooterSection extends LitElement {
         <div class="container p-6 mx-auto">
           <div class="lg:flex">
             <div class="w-full -mx-6 lg:w-2/5">
-              <div class="px-6">
-                <a href="#">
+              <div class="px-6 text-center md:text-left">
+                <a href="#" class="flex items-center">
                   <img
                     class="w-auto h-7"
                     src="/images/fastdesignslogo.webp"
                     alt="FastDesignlogo"
                   />
+                  <span
+                    class="ml-2 text-2xl font-semibold whitespace-nowrap dark:text-white"
+                  >
+                    FastDesign
+                  </span>
                 </a>
 
                 <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
-                  Join 31,000+ other and never miss out on new tips, tutorials,
-                  and more.
+                  Join 500+ Photographers and Small business who are delivering
+                  albums superfast with our help.
                 </p>
 
                 <div class="flex mt-6 -mx-2">
@@ -90,17 +95,17 @@ class FooterSection extends LitElement {
                   <a
                     href="#"
                     class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                    >Company</a
+                    >Works</a
                   >
                   <a
                     href="#"
                     class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                    >Community</a
+                    >Team</a
                   >
                   <a
                     href="#"
                     class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                    >Careers</a
+                    >Contact</a
                   >
                 </div>
 
@@ -141,11 +146,16 @@ class FooterSection extends LitElement {
                   </h3>
                   <span
                     class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                    >+1 526 654 8965</span
+                    >89775 69985</span
                   >
                   <span
                     class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                    >example@email.com</span
+                    >fastdesignindia@gmail.com</span
+                  >
+                  <span
+                    class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    >address : Rajam rtc complex backside, near Narayana school.
+                    andharapradesh, vijayanagaram dist pincode : 532127</span
                   >
                 </div>
               </div>
@@ -156,7 +166,20 @@ class FooterSection extends LitElement {
 
           <div>
             <p class="text-center text-gray-500 dark:text-gray-400">
-              © Brand 2020 - All rights reserved
+              © FastDesign 2024 - All rights reserved
+            </p>
+          </div>
+          <div>
+            <p class="text-center text-gray-500 dark:text-gray-400 pt-4">
+              Website Designed by
+              <a
+                href="https://plickdesigns.com"
+                class="text-blue-500 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Plickdesigns.com
+              </a>
             </p>
           </div>
         </div>

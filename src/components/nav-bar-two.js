@@ -19,9 +19,9 @@ export class NavbarTwo extends LitElement {
   constructor() {
     super();
     this.menuOpen = false;
-    //defauly nav color
+    // Default nav color
     this.navBg = "bg-black";
-    //default colors for navlinks
+    // Default colors for nav links
     this.navTextColor = "text-white";
     this.navTextHover = "text-gray-100";
     this.buttonHoverColor = "hover:bg-gray-900";
@@ -32,7 +32,8 @@ export class NavbarTwo extends LitElement {
 
     this.links = [
       { name: "About", href: "#AboutSection" },
-      { name: "Works", href: "#GalleryOne" },
+      { name: "Works", href: "#GalleryTwo" },
+      { name: "Team", href: "#our-team" },
       { name: "Contact", href: "#contact-us-one" },
     ];
   }
@@ -43,6 +44,25 @@ export class NavbarTwo extends LitElement {
 
   closeMenu() {
     this.menuOpen = false;
+  }
+
+  // Smooth scrolling logic
+  firstUpdated() {
+    // Smooth scrolling on internal links
+    this.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        const headerOffset = 60; // Adjust based on your header height
+        const elementPosition = target.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      });
+    });
   }
 
   render() {
@@ -104,7 +124,8 @@ export class NavbarTwo extends LitElement {
               <!-- WhatsApp CTA Button, separate styling -->
               <li>
                 <a
-                  href="https://wa.me/yourwhatsappnumber"
+                  href="https://wa.me/918977569985"
+                  target="_blank"
                   class="bg-[#0a8b7d] text-white py-2 px-4  hover:bg-green-600 transition-colors"
                 >
                   WhatsApp Now

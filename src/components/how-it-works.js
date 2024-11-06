@@ -32,7 +32,7 @@ class HowItWorks extends LitElement {
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <!-- Card 1: Organize Your Images -->
             <div
-              class="card bg-yellow-100 p-6 rounded-lg shadow-lg hover:bg-yellow-400"
+              class="card bg-yellow-100 p-6 rounded-lg shadow-lg hover:bg-yellow-300"
             >
               <h3 class="text-xl font-bold mb-4">📁 Organize Your Images</h3>
               <p class="text-gray-700">
@@ -43,7 +43,7 @@ class HowItWorks extends LitElement {
 
             <!-- Card 2: Send Your Images -->
             <div
-              class="card bg-blue-100 p-6 rounded-lg shadow-lg hover:bg-blue-400"
+              class="card bg-blue-100 p-6 rounded-lg shadow-lg hover:bg-blue-300"
             >
               <h3 class="text-xl font-bold mb-4">📧 Send Your Images</h3>
               <p class="text-gray-700">
@@ -58,7 +58,7 @@ class HowItWorks extends LitElement {
 
             <!-- Card 3: Advance Payment -->
             <div
-              class="card bg-green-100 p-6 rounded-lg shadow-lg hover:bg-green-400"
+              class="card bg-green-100 p-6 rounded-lg shadow-lg hover:bg-green-300"
             >
               <h3 class="text-xl font-bold mb-4">💰 Advance Payment</h3>
               <p class="text-gray-700">
@@ -70,7 +70,8 @@ class HowItWorks extends LitElement {
           <!-- CTA: Contact Us -->
           <div class="text-center mt-8">
             <a
-              href="tel:+918977569985"
+              href="https://wa.me/918977569985"
+                target="_blank""
               class="inline-block bg-[#0a8b7d] text-white font-bold py-3 px-6  hover:bg-green-600 transition-colors duration-300"
             >
               Quick WhatsApp Enquiry

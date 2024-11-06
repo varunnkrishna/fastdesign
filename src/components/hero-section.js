@@ -9,17 +9,6 @@ class HeroSection extends LitElement {
 
   render() {
     return html`
-      <div
-        class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200"
-      >
-        <span class="block sm:hidden">all</span>
-        <span class="hidden sm:block md:hidden">sm</span>
-        <span class="hidden md:block lg:hidden">md</span>
-        <span class="hidden lg:block xl:hidden">lg</span>
-        <span class="hidden xl:block 2xl:hidden">xl</span>
-        <span class="hidden 2xl:block">2xl</span>
-      </div>
-
       <section class="bg-white">
         <div class="grid grid-cols-1  md:grid-cols-2">
           <!-- Image Column -->
@@ -27,7 +16,7 @@ class HeroSection extends LitElement {
             class="relative w-auto lg:w-11/12 lg:h-screen order-2 md:order-1 sm:pt-4"
           >
             <img
-              src="/images/heroimage.webp"
+              src="/images/herobg.webp"
               alt="Beautiful Mehendi Design"
               loading="lazy"
               class="h-[400px] w-full object-cover md:h-full"
@@ -35,6 +24,32 @@ class HeroSection extends LitElement {
             <div
               class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"
             ></div>
+
+            <div class="absolute bottom-0 left-0 sm:hidden lg:block">
+              <div class="p-4 sm:p-6 lg:p-8">
+                <div class="flex items-center">
+                  <h2 class="font-bold text-white text-7xl ml-2.5">
+                    Over 500+
+                  </h2>
+                  <svg
+                    class="w-10 h-10 text-green-600"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <p class="max-w-xs mt-1.5 text-xl pl-4 text-white">
+                  Photographers Trust Us for High-Quality Edits and Fast
+                  Delivery
+                </p>
+              </div>
+            </div>
           </div>
 
           <!-- Text Column -->
@@ -46,23 +61,16 @@ class HeroSection extends LitElement {
                 <h1
                   class="font-inter tracking-tighter text-4xl font-bold text-[#433232] md:text-4xl xl:text-5xl"
                 >
-                  Hi👋 , I’m Pardhu – CEO of FastDesign
+                  Professional Photo Editing for Photographers and Businesses
                 </h1>
                 <p
                   class="mt-8 text-lg font-inter font-medium tracking-tight text-[#464442]"
                 >
-                  A Graphic Designer with 10+ Years of Expertise.
+                  We specialize in enhancing and editing photos for
+                  photographers and businesses, delivering high-quality,
+                  print-ready images that meet your unique need.
                 </p>
-                <p
-                  class="hidden md:block mt-4 text-lg font-inter font-medium tracking-tight text-[#464442]"
-                >
-                  Passionate about creating beautiful designs, I founded
-                  FastDesign to help photographers and businesses bring their
-                  ideas to life. With a dedicated team and a focus on on-time
-                  delivery, data security, and creativity, we deliver
-                  high-quality albums and digital designs that exceed
-                  expectations.
-                </p>
+
                 <p
                   class="mt-8 text-lg font-inter font-medium tracking-tight text-[#464442]"
                 >
@@ -119,8 +127,8 @@ class HeroSection extends LitElement {
               <div
                 class="bg-[#B5E2FA]/50 text-black py-2 px-4 rounded-md mt-4 text-center font-semibold"
               >
-                🚀 <span class="text-red-600">Limited Time Offer:</span> Premium
-                Designs for just <span class="line-through">₹100</span> ₹70! 🚀
+                🚀 <span class="text-red-600">Limited Time Offer:</span> First
+                order discount for new customers!
               </div>
             </div>
 
@@ -128,15 +136,16 @@ class HeroSection extends LitElement {
               class="flex flex-col gap-2 lg:flex-row pt-10 lg:pb-40 justify-center items-center md:justify-start"
             >
               <a
-                href="#book-appointment"
+                href="https://wa.me/918977569985"
+                target="_blank"
                 aria-label="Book appointment"
-                class="bg-[#0a8b7d] text-white py-3 px-6 w-48 text-center hover:bg-[#404F58] transition whitespace-normal transition:background-color 0.3s ease"
+                class="bg-[#0a8b7d] text-white py-3 px-6 w-48 text-center hover:bg-[#404F58] transition whitespace-normal transition:background-color 0.3s ease shadow-lg"
               >
-                View Gallery
+                Whatsapp Enquiry
               </a>
               <a
-                href="#book-appointment"
-                class="bg-black text-white py-3 px-6 w-60 text-center hover:bg-[#9e5248] transition whitespace-normal transition:background-color 0.3s ease"
+                href="tel:+918977569985"
+                class="bg-black text-white py-3 px-6 w-60 text-center hover:bg-gray-700 transition whitespace-normal transition:background-color 0.3s ease shadow-lg"
               >
                 Call: +91 8977569985
               </a>

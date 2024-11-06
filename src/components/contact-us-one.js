@@ -12,16 +12,14 @@ class ContactSection extends LitElement {
         <div class="container px-6 py-12 mx-auto">
           <div>
             <p class="font-medium text-[#0a8b7d] text-center">Contact us</p>
-
             <h1
               class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl text-center"
             >
               Chat to our friendly team
             </h1>
-
             <p class="mt-3 text-gray-500 text-center">
-              We’d love to hear from you. Please fill out this form or shoot us
-              an email.
+              We’d love to hear from you. Reach out via email or phone, and find
+              our payment details below.
             </p>
           </div>
 
@@ -48,14 +46,16 @@ class ContactSection extends LitElement {
                     />
                   </svg>
                 </span>
-
                 <h2 class="mt-4 text-base font-medium text-gray-800">Email</h2>
                 <p class="mt-2 text-sm font-medium text-gray-500">
                   Our friendly team is here to help.
                 </p>
-                <p class="mt-2 text-sm text-[#0a8b7d]">hello@fastdesign.com</p>
+                <p class="mt-2 text-sm text-[#0a8b7d]">
+                  fastdesignindia@gmail.com
+                </p>
               </div>
 
+              <!-- Payment Options Section -->
               <div>
                 <span
                   class="inline-block p-3 text-[#0a8b7d] rounded-full bg-blue-100/80"
@@ -71,23 +71,23 @@ class ContactSection extends LitElement {
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
                       d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                     />
                   </svg>
                 </span>
-
                 <h2 class="mt-4 text-base font-medium text-gray-800">
-                  Support Center
+                  Payment Options
                 </h2>
                 <p class="mt-2 text-sm text-gray-500">
-                  Our friendly team is here to help.
+                  Account Holder: Rambabu Karnaina
                 </p>
-                <p class="mt-2 text-sm text-[#0a8b7d]">Get assistance</p>
+                <p class="mt-2 text-sm text-gray-500">
+                  Account Number: 38196135125
+                </p>
+                <p class="mt-2 text-sm text-gray-500">IFSC Code: SBIN0021241</p>
+                <p class="mt-2 text-sm text-gray-500">
+                  PhonePe/GPay: 9182917184
+                </p>
               </div>
 
               <div>
@@ -105,22 +105,17 @@ class ContactSection extends LitElement {
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
                       d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                     />
                   </svg>
                 </span>
-
                 <h2 class="mt-4 text-base font-medium text-gray-800">Office</h2>
                 <p class="mt-2 text-sm text-gray-500">
-                  Come say hello at our office HQ.
+                  Come say hello at our office.
                 </p>
                 <p class="mt-2 text-sm text-[#0a8b7d]">
-                  100 Smith Street Collingwood VIC 3066 AU
+                  Rajam RTC complex backside, near Narayana school, Andhra
+                  Pradesh, Vizianagaram Dist, PIN: 532127
                 </p>
               </div>
 
@@ -143,68 +138,23 @@ class ContactSection extends LitElement {
                     />
                   </svg>
                 </span>
-
                 <h2 class="mt-4 text-base font-medium text-gray-800">Phone</h2>
                 <p class="mt-2 text-sm text-gray-500">
                   Mon-Fri from 8am to 5pm.
                 </p>
-                <p class="mt-2 text-sm text-[#0a8b7d]">+1 (555) 000-0000</p>
+                <p class="mt-2 text-sm text-[#0a8b7d]">89775 69985</p>
               </div>
             </div>
 
-            <div class="p-4 py-6 rounded-lg bg-gray-50 md:p-8">
-              <form>
-                <div class="-mx-2 md:items-center md:flex">
-                  <div class="flex-1 px-2">
-                    <label class="block mb-2 text-sm text-gray-600"
-                      >First Name</label
-                    >
-                    <input
-                      type="text"
-                      placeholder="John "
-                      class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                    />
-                  </div>
-
-                  <div class="flex-1 px-2 mt-4 md:mt-0">
-                    <label class="block mb-2 text-sm text-gray-600"
-                      >Last Name</label
-                    >
-                    <input
-                      type="text"
-                      placeholder="Doe"
-                      class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                    />
-                  </div>
-                </div>
-
-                <div class="mt-4">
-                  <label class="block mb-2 text-sm text-gray-600"
-                    >Email address</label
-                  >
-                  <input
-                    type="email"
-                    placeholder="johndoe@example.com"
-                    class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                  />
-                </div>
-
-                <div class="w-full mt-4">
-                  <label class="block mb-2 text-sm text-gray-600"
-                    >Message</label
-                  >
-                  <textarea
-                    class="block w-full h-24 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-24 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-
-                <button
-                  class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#0a8b7d] rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
-                >
-                  Send message
-                </button>
-              </form>
+            <!-- QR code and payment details image section -->
+            <div
+              class="p-4 py-6 rounded-lg bg-gray-50 md:p-8 flex justify-center items-center"
+            >
+              <img
+                src="/images/qr code.webp"
+                alt="Payment QR Code"
+                class="w-full h-auto object-contain"
+              />
             </div>
           </div>
         </div>
